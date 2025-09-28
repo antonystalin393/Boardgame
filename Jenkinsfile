@@ -10,6 +10,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
+                echo 'this is palani from webhooktrigger'
             }
         }
 
