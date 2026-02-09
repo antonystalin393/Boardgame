@@ -19,9 +19,9 @@ pipeline {
             }
         }
         
-        stage('Build') {
+        stage('CONFIGURE') {
             steps {
-                sh 'mvn package'
+                sh 'mvn deploy'
             }
         }
     }
