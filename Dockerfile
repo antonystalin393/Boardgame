@@ -14,6 +14,7 @@ COPY src ./src
 # Build the JAR (skip tests for faster build)
 RUN mvn clean package -DskipTests
 
+# Build the JAR (skip tests for faster build)
 # ===== Runtime Stage =====
 FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
